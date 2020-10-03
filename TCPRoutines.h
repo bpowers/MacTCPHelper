@@ -1,9 +1,7 @@
 #ifndef _TCPROUTINES_
 #define _TCPROUTINES_
 
-typedef int bool;
-#define true 1
-#define false 0
+#include <stdbool.h>
 
 typedef void(*GiveTimePtr)();
 
